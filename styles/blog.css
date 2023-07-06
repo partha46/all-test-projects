@@ -1,0 +1,16 @@
+nav > ul > li {
+  display: inline;
+  /* --> er mane li gulo side e in a line hoye jabe  */
+  margin-right: 15px;
+  /* --> er mane list gulor maje dan dike side gap hoye jabe */
+}
+
+nav li > a {
+  text-decoration: none;
+  /* --> er mane li text gulor niche jodi kono underline thake tahole segulo ar yhakbe na */
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
