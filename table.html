@@ -18,66 +18,79 @@
         padding: 5px 10px;
       }
     </style>
+    <link rel="stylesheet" href="nav.css" />
   </head>
   <body>
-    <fieldset>
-      <legend>Some Important Tags for Table</legend>
-      <ul>
-        <li>Caption</li>
-        <li>Table: table</li>
-        <li>table head: thead</li>
-        <li>Table Body:tbody</li>
-        <li>table foot:tfoot</li>
-        <li>table row: tr</li>
-        <li>table data or table cell: td</li>
-        <li>table head: th</li>
-      </ul>
-    </fieldset>
-    <h1>HTML Table</h1>
-    <table>
-      <thead>
-        <caption>
-          Employee Salary Data
-        </caption>
-        <tr>
-          <th>No.</th>
-          <th>Full Name</th>
-          <th>Company</th>
-          <th>Salary</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Bill Gtes</td>
-          <td>Founder Microsoft</td>
-          <td>$1000</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Steve Jobs</td>
-          <td>Founder Apple</td>
-          <td>$1100</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Larry Page</td>
-          <td>Founder Google</td>
-          <td>$1200</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Mark Zuckarberg</td>
-          <td>Founder FaceBook</td>
-          <td>$1300</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <!-- colspan use kora hoi footer ke koto gula column e nea hobe -->
-          <td colspan="4">Total Employee: 4</td>
-        </tr>
-      </tfoot>
-    </table>
+    <header>
+      <nav>
+        <ul>
+          <li><a target="#" href="audio&video.html">Audio & Video</a></li>
+          <li><a target="_blank" href="blog.html">Blog</a></li>
+          <li><a target="_main" href="form.html">Form</a></li>
+          <li><a target="_1" href="table.html">Table</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <fieldset>
+        <legend>Some Important Tags for Table</legend>
+        <ul>
+          <li>Caption</li>
+          <li>Table: table</li>
+          <li>table head: thead</li>
+          <li>Table Body:tbody</li>
+          <li>table foot:tfoot</li>
+          <li>table row: tr</li>
+          <li>table data or table cell: td</li>
+          <li>table head: th</li>
+        </ul>
+      </fieldset>
+      <h1>HTML Table</h1>
+      <table>
+        <thead>
+          <caption>
+            Employee Salary Data
+          </caption>
+          <tr>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Bill Gtes</td>
+            <td>Founder Microsoft</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Steve Jobs</td>
+            <td>Founder Apple</td>
+            <td>$1100</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Founder Google</td>
+            <td>$1200</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Mark Zuckarberg</td>
+            <td>Founder FaceBook</td>
+            <td>$1300</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <!-- colspan use kora hoi footer ke koto gula column e nea hobe -->
+            <td colspan="4">Total Employee: 4</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
   </body>
 </html>
