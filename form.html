@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form fill up</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <h2>Please fill up the form</h2>
+        <form>
+          <!-- label hocche form er box jekhane pass, name, phone thakbe. label er vetore input dea jekhane type name thakbe. placeholder mane box er vetore text hint dea thake. -->
+          <label for=""
+            >your name:
+            <input id="name" type="text" placeholder="your mane" />
+          </label>
+          <label for=""
+            >your email:
+            <input id="email" type="text" placeholder="your email" />
+          </label>
+          <label for=""
+            >your phone:
+            <input id="email" type="text" placeholder="your phone" />
+          </label>
+          <fieldset>
+            <legend>choose your choice</legend>
+            <label for="">
+              <!-- jokhon input radio tag use kora hoi , name same dile optionally choose kora jai eg; bellow -->
+              <input type="radio" name="Fish" id="Rhui" />Rhui Fish
+            </label>
+            <label for="">
+              <input type="radio" name="Fish" id="Katla" />Katla Fish
+            </label>
+            <label for="">
+              <input type="radio" name="Fish" id="Mrigel" />Mrigel Fish
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Choose small fishes</legend>
+            <label for="Morola">
+              <!-- input checkbox use korle ek ba ekadhik option choose kora jai -->
+              <input type="checkbox" name="small fish" id="Morola" />Morola
+            </label>
+            <label for="Moa">
+              <input type="checkbox" name="small fish" id="Moa" />Moa
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Special Instruction</legend>
+            <!-- text area use hoi kichu feedback or instruction lekhar jono -->
+            <textarea name="" id="" cols="25" rows="5"></textarea>
+          </fieldset>
+          <!--input:reset is use for reset the whole form. start from begin. -->
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
